@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Memory Match Game</title>
+  <title>Click the Circle</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Memory Match Game</h1>
-  <div class="game-board" id="gameBoard"></div>
-  <p id="moves">Moves: 0</p>
+  <h1>Click the Circle!</h1>
+  <p>Score: <span id="score">0</span></p>
+  <div id="gameArea"></div>
   <script src="script.js"></script>
 </body>
 </html>
